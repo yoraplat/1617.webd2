@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/screen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../img/logo.png" alt="" class="logo">
+        </div>
+    </header>
+
+    <nav>
+        <div class="hamburger_container">
+            <img src="../img/hamburger.png" alt="menu" class="hamburger">
+        </div>
+        <div class="nav_grid">
+            <div class="column-5"><a href="index.html">Diensten</a></div>
+            <div class="column-5"><a href="over.html">Over ons</a></div>
+            <div class="column-5"><a href="portfolio.html">Portfolio</a></div>
+            <div class="column-5"><a href="team.html">Team</a></div>
+            <div class="column-5"><a href="contact.html" id="active-page">Contact</a></div>
+        </div>
+    </nav>
+
+    <main>
+        <form action="" id="contact">
+            <div class="name">
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Name">
+            </div>
+
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Email Adress">
+            </div>
+
+            <div class="text">
+                <label for="text"></label>
+                <textarea name="text" id="textarea" cols="20" rows="10" placeholder="Your message"></textarea>
+            </div>
+
+            <div class="submit">
+                <button>Submit</button>
+            </div>
+        </form>
+        
+        <div class="map">
+            <img src="../img/contact/map.png" alt="">
+        </div>
+        <div class="clearfix"></div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <ul>
+                <li>
+                    <a href="#"><i class="fa fa-envelope" aria-hidden="true" style="font-size:60px;color:#b6d7b9"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true" style="font-size:60px;color:#b6d7b9"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true" style="font-size:60px;color:#b6d7b9"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/animate.js"></script>
+</body>
+
+</html>

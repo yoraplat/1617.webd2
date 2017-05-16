@@ -1,0 +1,368 @@
+/*
+colors:
+#b6d7b9
+#00a79d
+#006494
+#50514f
+#000000
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway');
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+}
+
+.fa-envelope,
+.fa-facebook,
+.fa-twitter {
+    font-size: 60px;
+    color: #b6d7b9;
+}
+
+.em {
+    font-weight: 100
+}
+
+.nav_grid {
+    width: 100%;
+    display: block;
+}
+
+.hamburger {
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.hamburger_container {
+    width: 100%;
+    display: block;
+    background-color: #50514f;
+}
+
+.column-5 {
+    display: none;
+    width: 100%;
+}
+
+.column-5 a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-top: 2px;
+    padding: 10px 0px;
+    background-color: #50514f;
+    font-size: 1.2em;
+    line-height: 20px;
+}
+
+.logo-container {
+    width: 100%;
+    background-color: #00a79d;
+}
+
+.logo {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    max-width: 400px;
+}
+
+article {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+article h1 {
+    font-weight: bold;
+    color: #006494;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+article p {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 75%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+}
+
+article img {
+    display: block;
+    width: 80%;
+    max-width: 250px;
+    margin: 15px auto;
+}
+
+#contact {
+    padding: 10px 0 20px 0;
+    width: 100%;
+}
+
+.aboutUsArticle {
+    display: block;
+    width: 90%;
+    margin: 30px auto 50px auto;
+}
+
+.name,
+.email,
+.text,
+.submit {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+}
+
+.text textarea {
+    resize: none;
+    column-count: 50;
+    margin-top: 25px;
+}
+
+.titel {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin: 20px 5px;
+}
+
+#portfolioDetail {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.team h1 {
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: #006494;
+    font-size: 2em;
+}
+
+.teamList ul li h1 {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    color: #50514f;
+    font-weight: 500;
+}
+
+.teamList ul li p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 20px;
+}
+
+.teamList ul {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.teamList ul li img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.teamList li {
+    list-style-type: none;
+    display: block;
+}
+
+.footer-container {
+    background-color: #00A79D;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.footer-container ul {
+    text-align: center;
+}
+
+.footer-container ul li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 5px;
+    width: 50px;
+    max-width: 150px;
+}
+
+.footer-container ul li img {
+    width: 100%;
+}
+
+.map {
+    width: 100%;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.map img {
+    width: 150%;
+    display: block;
+    margin-left: -100px;
+}
+
+.work-container{
+    margin-top: 80px;
+}
+
+.work-container p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+@media(min-width:600px) {
+    .nav_grid {
+        display: flex;
+    }
+    .hamburger_container {
+        display: none;
+    }
+    .column-5 {
+        display: inline-block;
+    }
+    .teamList li {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0 10px;
+        width: 300px;
+    }
+    .teamList ul li img {
+        width: 300px
+    }
+    .footer-container ul li {
+        margin: 0 60px;
+    }
+    .map img {
+        width: 50%;
+        max-width: 500px;
+        display: block;
+        margin: 0 auto
+    }
+    #active-page {
+        background-color: #00A79D;
+        height: 19px;
+    }
+    .aboutUsArticle {
+        width: 80%;
+    }
+    .column-5 a {
+        margin-top: 0;
+    }
+    .work-container p {
+        width: 70%;
+    }
+}
+
+@media(min-width: 800px) {
+    article {
+        display: inline-block;
+        width: 400px;
+        height: 500px;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    article h1 {
+        height: 70px;
+    }
+    .article-container {
+        display: flex;
+    }
+    .work-portfolio {
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+    }
+    #contact {
+        text-align: center;
+        width: 90%;
+        display: block;
+    }
+    .name,
+    .email {
+        display: inline-block;
+        width: 25%;
+    }
+    #textarea {
+        width: 50%;
+    }
+    .text {
+        margin-top: 10px;
+    }
+    #contact {
+        width: 50%;
+        float: left;
+    }
+    .teamList li {
+        padding: 0 40px;
+    }
+    .footer-container ul li {
+        width: 60px;
+        margin: 0 80px;
+    }
+    .map img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .map {
+        width: 50%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .aboutUsArticle {
+        text-align: center;
+        height: 200px;
+    }
+    .aboutUsArticle p {
+        display: inline-block;
+        width: 300px;
+        margin: 0 auto;
+    }
+}
