@@ -1,0 +1,138 @@
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+    color:#000;
+    font-weight: 00;
+    font-size: 1.2em;
+    padding: 5px 20px;
+    border: 1px solid #50514f;
+}
+
+nav ul li a:hover{
+    background-color: #50514f;
+    color: #b6d7b9;
+    transition: 0.3s;
+}
+
+nav ul {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo-container{
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.logo-container img{
+    width: 100%;
+    max-width: 705px;
+}
+
+.text-logo{
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 20px;;
+}
+
+.text-logo p{
+    font-family: 'Raleway', sans-serif;
+    line-height: 24px;
+}
+
+form{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+
+.left{
+    float: left;
+    width: 50%;
+    height: 300px;
+    margin-top: 120px;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    height: 300px;
+    margin-top: 120px;
+    text-align: right;
+    line-height: 24px;
+}
+
+.grid-color{
+    display: inline-block;
+    width: 19.3%;
+    height: 300px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.one{
+    background-color: #b6d7b9
+}
+
+.two{
+    background-color: #00a79d
+}
+
+.three{
+    background-color: #006494
+}
+
+.four{
+    background-color: #50514f
+}
+
+.five{
+    background-color: #000000
+}
+
+.grid-color p{
+    color: white;
+    margin-top: 150px;
+}
+
+.r{
+    font-family: "Raleway";
+    line-height: 30px;
+}
+
+.l{
+    font-family: "Libre Baskerville";
+    line-height: 30px
+}
+
+.r,.l{
+    margin-right: 25%;
+}
+
+.title{
+    text-decoration: underline;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+.italic{
+    font-style: italic
+}
+
+.bold{
+    font-weight: bold;
+}

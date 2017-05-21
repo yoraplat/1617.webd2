@@ -8,14 +8,8 @@ colors:
 */
 
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway');
-
 html {
-    height: 100%;
-}
-
-body {
     position: relative;
-    margin: 0;
     min-height: 100%;
 }
 
@@ -79,9 +73,8 @@ body {
     max-width: 400px;
 }
 
-article {
+.article-container {
     margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 article h1 {
@@ -100,9 +93,11 @@ article p {
     max-width: 500px;
     display: block;
     margin: 0 auto;
+    padding: 0 10px;
     margin-top: 20px;
     font-family: 'Raleway', sans-serif;
-    line-height: 20px;
+    line-height: 24px;
+    vertical-align: text-top;
 }
 
 article img {
@@ -203,12 +198,17 @@ article img {
     display: block;
 }
 
+footer {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+}
+
 .footer-container {
     background-color: #00A79D;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
     text-align: center;
 }
 
@@ -228,21 +228,7 @@ article img {
     width: 100%;
 }
 
-.map {
-    width: 100%;
-    text-align: center;
-    display: block;
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-
-.map img {
-    width: 150%;
-    display: block;
-    margin-left: -100px;
-}
-
-.work-container{
+.work-container {
     margin-top: 80px;
 }
 
@@ -254,6 +240,16 @@ article img {
     margin: 0 auto;
     margin-top: 20px;
     line-height: 20px;
+}
+
+.map{
+    width: 100%;
+}
+
+.map iframe{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 @media(min-width:600px) {
@@ -279,7 +275,7 @@ article img {
         margin: 0 60px;
     }
     .map img {
-        width: 50%;
+        width: 80%;
         max-width: 500px;
         display: block;
         margin: 0 auto
@@ -297,6 +293,15 @@ article img {
     .work-container p {
         width: 70%;
     }
+    .map {
+        width: 50%;
+        display: inline-block;
+    }
+.map iframe{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
 }
 
 @media(min-width: 800px) {
@@ -358,7 +363,7 @@ article img {
     }
     .aboutUsArticle {
         text-align: center;
-        height: 200px;
+        height: 300px;
     }
     .aboutUsArticle p {
         display: inline-block;
