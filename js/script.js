@@ -1,4 +1,4 @@
-/*
+
 document.addEventListener("onload", autoHeight);
 
 function autoHeight(){
@@ -11,9 +11,9 @@ function autoHeight(){
     }
 }
 
-//autoHeight();
+autoHeight();
         
-*/
+
 
 var button = document.querySelector(".hamburger");
 var nav = document.querySelectorAll(".column-5");
