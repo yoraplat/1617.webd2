@@ -31,6 +31,7 @@ function openAndClose() {
         }
         count++;
 
+
     } else {
         button.src = "img/hamburger.png";
 
