@@ -24,7 +24,7 @@ button.addEventListener("click", openAndClose);
 function openAndClose() {
 
     if (count % 2 < 1) {
-        button.src = "img/kruis.png";
+        button.src = "./img/kruis.png";
 
         for (i = 0; i < nav.length; ++i) {
             nav[i].style.display = "block";
@@ -33,7 +33,7 @@ function openAndClose() {
 
 
     } else {
-        button.src = "img/hamburger.png";
+        button.src = "./img/hamburger.png";
 
         for (i = 0; i < nav.length; ++i) {
             nav[i].style.display = "none";
