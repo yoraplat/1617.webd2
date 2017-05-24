@@ -1,8 +1,5 @@
 
 
-$(window).resize(function () {
-    footerAlign();
-});
 
 
 function footerAlign() {
@@ -12,3 +9,7 @@ function footerAlign() {
     $('body').css('padding-bottom', footerHeight);
     $('footer').css('height', footerHeight);
 }
+
+$(window).resize(function () {
+    footerAlign();
+});
