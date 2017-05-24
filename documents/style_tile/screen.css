@@ -1,3 +1,5 @@
+
+
 nav ul li {
     display: inline-block;
     list-style-type: none;
@@ -135,4 +137,21 @@ form{
 
 .bold{
     font-weight: bold;
+}
+
+.portfolio{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.portfolio li{
+    display: inline-block;
+}
+
+.portfolio li img{
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
 }
