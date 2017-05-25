@@ -104,15 +104,18 @@ article p {
 article img {
     display: block;
     width: 80%;
-    max-width: 250px;
     margin: 15px auto;
 }
 
 #contact {
-    padding: 10px 0 20px 0;
-    width: 70%;
+    padding: 10px 0 10px 0;
+    width: 80%;
+    max-width: 560px;
     margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
     text-align: center;
+    background-color: #b6d7b9;
 }
 
 .aboutUsArticle {
@@ -131,6 +134,31 @@ article img {
     margin-top: 25px;
     font-family: 'Raleway', sans-serif;
     line-height: 20px;
+}
+
+#contact input,
+#contact textarea {
+    font-family: 'Libre Baskerville', serif;
+    display: block;
+    margin: 0 auto;
+}
+
+.submit button{
+    height: 50px;
+    width: 130px;
+    background-color: #006494;
+    border: 0px;
+    font-family: 'Raleway', sans-serif;
+    color: #b6d7b9;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.submit button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+    border-radius: 20px
 }
 
 .text textarea {
@@ -245,11 +273,11 @@ footer {
     line-height: 20px;
 }
 
-.map{
+.map {
     width: 100%;
 }
 
-.map iframe{
+.map iframe {
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -259,6 +287,12 @@ footer {
     .nav_grid {
         display: flex;
         margin-bottom: 100px;
+    }
+
+    .contactForm{
+        height: 450px;
+        margin-bottom: 30px
+
     }
     .hamburger_container {
         display: none;
@@ -278,12 +312,7 @@ footer {
     .footer-container ul li {
         margin: 0 60px;
     }
-    .map img {
-        width: 80%;
-        max-width: 500px;
-        display: block;
-        margin: 0 auto
-    }
+
     #active-page {
         background-color: #00A79D;
         height: 20px;
@@ -302,12 +331,19 @@ footer {
         display: block;
         margin: 0 auto;
     }
-.map iframe{
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-}
-
+    .map iframe {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-top: -20px
+    }
+    #contact {
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+        margin-top: -60px;
+        margin-bottom: 40px
+    }
 }
 
 @media(min-width: 800px) {
@@ -329,49 +365,59 @@ footer {
         margin: 0 auto;
         width: 400px;
     }
-    #contact {
+    .contactForm {
+        width: 50%;
+        display: inline-block;
+        float: left;
         text-align: center;
+        margin-top: 60px;
+    }
+
+    #contact{
         width: 90%;
-        margin: 0 auto;
-        display: block;
+        max-width: none;
+        height: 430px;
     }
     .name,
     .email {
         display: inline-block;
-        width: 25%;
+        width: 30%;
+        min-width: 200px;
     }
     #textarea {
         width: 50%;
     }
     .text {
-        margin-top: 10px;
+        margin-top: 30px;
     }
-    #contact {
-        width: 50%;
-        float: left;
-    }
+
+
     .teamList li {
         padding: 0 40px;
     }
+
     .footer-container ul li {
         width: 60px;
         margin: 0 80px;
     }
+
     .map {
         width: 50%;
         display: inline-block;
-        text-align: center;
+        float: right;
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
-    .map iframe{
+    .map iframe {
         width: 90%;
     }
+
     .aboutUsArticle {
         text-align: center;
         height: 300px;
     }
+
     .aboutUsArticle p {
         display: inline-block;
         width: 300px;
