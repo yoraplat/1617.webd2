@@ -53,12 +53,7 @@ nav ul {
     line-height: 24px;
 }
 
-form{
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-}
+
 
 
 .left{
@@ -155,3 +150,57 @@ form{
     max-width: 300px;
     margin: 0 auto;
 }
+
+
+
+
+
+#contact {
+    padding: 10px 0 10px 0;
+    width: 80%;
+    max-width: 560px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #b6d7b9;
+}
+
+
+.name,
+.email,
+.text,
+.submit {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+}
+
+#contact input,
+#contact textarea {
+    font-family: 'Libre Baskerville', serif;
+    display: block;
+    margin: 0 auto;
+}
+
+.submit button{
+    height: 50px;
+    width: 130px;
+    background-color: #006494;
+    border: 0px;
+    font-family: 'Raleway', sans-serif;
+    color: #b6d7b9;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.submit button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+    border-radius: 20px
+}
+

@@ -21,25 +21,28 @@
     </header>
 
     <main>
-        <form action="">
+       <div class="contactForm">
+        <form action="" id="contact">
             <div class="name">
-                <label for="name">Name: </label>
-                <input name="name" type="text">
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Naam">
             </div>
 
             <div class="email">
-                <label for="email">Email: </label>
-                <input type="text" name="email">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="E-mailadres">
             </div>
 
             <div class="text">
-                <textarea name="text" id="" sizeable="false" cols="30" rows="10"></textarea>
+                <label for="text">Bericht:</label>
+                <textarea name="text" id="textarea" cols="20" rows="10" placeholder="Uw vraag"></textarea>
             </div>
 
             <div class="submit">
-                <button>Submit</button>
+                <button>Verzenden</button>
             </div>
         </form>
+</div>
     </main>
 </body>
 </html>
